@@ -1,0 +1,43 @@
+/* Write your CSS code here */
+.list-items {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.item-1 {
+  display: flex;
+  margin-right: 50px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.date {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 12px;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.line-style-1 {
+  display: none;
+}
+
+.line-style-2 {
+  width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+  .description {
+    font-size: 10px;
+  }
+}
